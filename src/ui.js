@@ -25,6 +25,7 @@ export default class Ui {
       addButton: this.createAddButton(),
       imageEl: undefined,
       imagePreloader: make('div', this.CSS.imagePreloader),
+      imagePreloaderContainer: make('div', this.CSS.imagePreloaderContainer),
       caption: make('div', [this.CSS.input, this.CSS.caption], {
         contentEditable: true
       })
@@ -46,7 +47,8 @@ export default class Ui {
      *  </wrapper>
      */
     this.nodes.caption.dataset.placeholder = this.config.captionPlaceholder;
-    this.nodes.imageContainer.appendChild(this.nodes.imagePreloader);
+    this.nodes.imagePreloaderContainer.appendChild(this.nodes.imagePreloader);
+    this.nodes.imageContainer.appendChild(this.nodes.imagePreloaderContainer);
     this.nodes.item.appendChild(this.nodes.imageContainer);
     this.nodes.item.appendChild(this.nodes.caption);
     this.nodes.item.appendChild(this.nodes.fileButton);
@@ -72,6 +74,7 @@ export default class Ui {
       wrapper: 'image-tool',
       imageContainer: 'image-tool__image',
       imagePreloader: 'image-tool__image-preloader',
+      imagePreloaderContainer: 'image-tool__image-preloader-container',
       imageEl: 'image-tool__image-picture',
       caption: 'image-tool__caption'
     };
@@ -115,6 +118,7 @@ export default class Ui {
    */
   createAddButton() {
     const addButton = make('div', [ this.CSS.button ]);
+
     addButton.innerHTML = this.config.buttonContent || `${buttonIcon} Add Image`;
     addButton.addEventListener('click', () => {
       this.nodes.list.appendChild();

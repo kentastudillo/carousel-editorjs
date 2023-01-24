@@ -1,21 +1,20 @@
 .cdxcarousel-addImage {
-    height: 225px;
+    height: 236px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 5px;
     position: relative;
     flex-direction: row;
-    margin-top: 5px;
+    border-radius: 3px;
 }
 
-.cdxcarousel-item--empty .image-tool__image-preloader{
+.cdxcarousel-item--empty .image-tool__image-preloader-container{
   display: none;
 }
 
 .cdxcarousel-item img {
     margin-bottom: 10px;
-    border-radius: 8px;
+    border-radius: 3px;
     display: block;
     object-fit: cover;
     width: 100%;
@@ -50,6 +49,7 @@
     display: flex;
     position: relative;
     flex-direction: column;
+    height: 236px;
 }
 
 .cdxcarousel-block:nth-of-type(odd) {
