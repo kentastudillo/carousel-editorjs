@@ -10,15 +10,15 @@
   ],
   "description": "Carousel Image Tool for Editor.js",
   "license": "MIT",
-  "repository": "https://github.com/editor-js/image",
-  "main": "/home/mr9bit/work/lambda-react-redux/src/media/bundle.js",
+  "repository": "https://github.com/kentastudillo/carousel-editorjs",
+  "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch"
   },
   "author": {
-    "name": "CodeX",
-    "email": "team@ifmo.su"
+    "name": "Kent",
+    "email": "kent.astudillo@gmail.com"
   },
   "eslintConfig": {
     "globals": {
@@ -30,11 +30,11 @@
     "@babel/plugin-transform-runtime": "^7.2.0",
     "@babel/preset-env": "^7.3.4",
     "@babel/runtime": "^7.2.0",
-    "@codexteam/ajax": "^4.1.0",
+    "@codexteam/ajax": "^4.2.0",
     "babel-loader": "^8.0.5",
     "css-loader": "^1.0.0",
-    "eslint": "^5.9.0",
-    "eslint-config-codex": "github:codex-team/eslint-config",
+    "eslint": "^6.8.0",
+    "eslint-config-codex": "^1.3.3",
     "eslint-loader": "^2.1.1",
     "formidable": "^1.2.1",
     "postcss-loader": "^3.0.0",
