@@ -1,5 +1,5 @@
 {
-  "name": "@editorjs/image",
+  "name": "@editorjs/carousel-image",
   "version": "2.3.3",
   "keywords": [
     "codex editor",
@@ -8,7 +8,7 @@
     "editor.js",
     "editorjs"
   ],
-  "description": "Image Tool for Editor.js",
+  "description": "Carousel Image Tool for Editor.js",
   "license": "MIT",
   "repository": "https://github.com/editor-js/image",
   "main": "/home/mr9bit/work/lambda-react-redux/src/media/bundle.js",
