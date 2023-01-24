@@ -56,11 +56,11 @@
     flex-direction: column;
 }
 
-.cdxcarousel-item :nth-of-type(odd) {
+.cdxcarousel-block:nth-of-type(odd) {
   padding-right: 5px;
 }
 
-.cdxcarousel-item :nth-of-type(even) {
+.cdxcarousel-block:nth-of-type(even) {
   padding-left: 5px;
 }
 
