@@ -48,7 +48,6 @@ export default class SimpleCarousel {
       /**
        * Tool's classes
        */
-      wrapper: 'cdxcarousel-wrapper',
       addButton: 'cdxcarousel-addImage',
       block: 'cdxcarousel-block',
       item: 'cdxcarousel-item',

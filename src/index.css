@@ -35,6 +35,7 @@
 
 .cdxcarousel-block {
     width: 50%;
+    padding: 7px 0;
 }
 
 .cdxcarousel-list {
@@ -43,11 +44,6 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
-}
-
-.cdxcarousel-wrapper {
-    margin-top: 10px;
-    margin-bottom: 15px;
 }
 
 .cdxcarousel-item {
